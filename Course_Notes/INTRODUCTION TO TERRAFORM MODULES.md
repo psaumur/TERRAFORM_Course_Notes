@@ -14,6 +14,8 @@ There are no user defined functions in Terraform, however there are MODULES.
 
 Terraform modules stick to DRY principles : "Don't Repeat Yourself"
 
+---
+
 Modules help you :
 
 - ORGANIZE CONFIGURATION
@@ -32,13 +34,13 @@ When you run commands, like `terraform plan` or `terraform apply` directly from 
 
 Materials imported from OTHER directories into the 'Root Module' are called 'Child Modules'.
 
-There are TWO types of MODULES :  Local and Remote
+There are <ins>TWO</ins> types of MODULES :  Local and Remote
 
-LOCAL MODULES:
+<ins>LOCAL MODULES:</ins>
 
 Loaded from the local file system and are generally created by yourself or other members of your team to organizse and encapsulate your code
 
-REMOTE MODULES:
+<ins>REMOTE MODULES:</ins>
 
 Loaded from a remote source, such as a Terraform Registry and are created and maintained by Hashicorp and it's partners or by third parties.
 
@@ -48,7 +50,7 @@ It is GOOD practice to start building everything as a MODULE, create a library o
 
 ---
 
-CREATING TERRAFORM MODULES
+<ins>CREATING TERRAFORM MODULES</ins>
 
 A MODULES can consist only of a single file in a directory.
 

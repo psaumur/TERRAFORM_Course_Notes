@@ -1,9 +1,11 @@
-## TERRAFORM COURSE NOTES 
+# TERRAFORM COURSE NOTES 
+
+---
 
 This is my repository of my personal notes taken during Andrei Dumetrescu's Terraform Course at Zero to Mastery
 https://zerotomastery.io/courses/learn-terraform-certification/
 
------------------------------------
+---
 
 
 [TERAFORM STRUCTURE AND PROVIDERS](https://github.com/psaumur/TERRAFORM_Course_Notes/blob/main/Course_Notes/TERAFORM%20STRUCTURE%20AND%20PROVIDERS.md)

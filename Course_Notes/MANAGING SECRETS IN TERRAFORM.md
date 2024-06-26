@@ -6,8 +6,8 @@ Using Terraform, we can manage the entire infrastructure using code, so the secu
 #Configure the AWS Provider
 provider "aws" {
 region     = "us-west-2"
-access_key = "AKIAS2E6IVPFMCJLNDVF"
-secret_key = "ql/Wfw0tkzzYI+RvIzIomgwULZxD4Gw4ayWUcOq6"
+access_key = "<put your AWS provided Access Key here>"
+secret_key = "<put your AWS provided Secret Key here>"
 }
 ```
 

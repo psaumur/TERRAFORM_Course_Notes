@@ -15,6 +15,7 @@ All the data configuration files, in a directory, create a module.
 
 In this case, the root module and Terraform, evaluates all of the configuration files in a module, effectively treating them as a single document.
 
+```
 psaumur@Sanctuary-VirtualBox:~/master_terraform/01-aws$
 .
 ├── [main.tf](http://main.tf/)
@@ -22,6 +23,7 @@ psaumur@Sanctuary-VirtualBox:~/master_terraform/01-aws$
 ├── terraform.tfstate.backup
 ├── tfplan
 └── [variables.tf](http://variables.tf/)
+```
 
 So declarations in those files, such as variables, .tf and the [main.tf](http://main.tf/) are concatenated into a single entity.
 

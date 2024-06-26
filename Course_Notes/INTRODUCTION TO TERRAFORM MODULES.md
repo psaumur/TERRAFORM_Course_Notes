@@ -34,6 +34,8 @@ When you run commands, like `terraform plan` or `terraform apply` directly from 
 
 Materials imported from OTHER directories into the 'Root Module' are called 'Child Modules'.
 
+---
+
 There are <ins>TWO</ins> types of MODULES :  Local and Remote
 
 <ins>LOCAL MODULES:</ins>

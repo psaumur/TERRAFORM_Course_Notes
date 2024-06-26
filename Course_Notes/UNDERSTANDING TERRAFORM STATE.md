@@ -37,7 +37,7 @@ Being a JSON format, it consists of key value pairs.
 
 ---
 
-THE TERRAFORM STATE COMMAND
+<ins>THE TERRAFORM STATE COMMAND</ins>
 
 We can examine the Terraform STATE, using CLI commands.
 

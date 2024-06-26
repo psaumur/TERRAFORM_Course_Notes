@@ -1,6 +1,6 @@
 # CREATING RESOURCES - PART 3
 
-# Route Table and Internet Gateway
+<ins>Route Table and Internet Gateway</ins>
 
 We have created a custom VPC and a subnet and parameterized the configuration, using variables. The next step to run applications in the virtual private cloud is to configure a route table and an Internet Gateway, for Internet access.
 

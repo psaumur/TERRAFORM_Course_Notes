@@ -15,7 +15,7 @@ CHILD MODULE can use OUTPUTS to expose a SUBSET of resource attributes to the PA
 
 ---
 
-ACCESSING CHILD MODULE OUTPUT VALUES
+<ins>ACCESSING CHILD MODULE OUTPUT VALUES</ins>
 
 '[outputs.tf](http://outputs.tf/)' entries in CHILD MODULES behave like function return values, accessible globally to the rest of the code.
 

@@ -1,3 +1,5 @@
+## TERRAFORM COURSE NOTES 
+
 This is my repository of my personal notes taken during Andrei Dumetrescu's Terraform Course at Zero to Mastery
 https://zerotomastery.io/courses/learn-terraform-certification/
 

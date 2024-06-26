@@ -33,8 +33,8 @@ The tag "Name", allows us to name our Subnet and this name is what will appear o
 
 Executing `terraform plan`, we get the following:
 
-![Untitled](CREATING%20RESOURCES%20-%20PART%202%20ba70b5c22efd4980991ce81a956fe281/Untitled.png)
+![image](https://github.com/psaumur/TERRAFORM_Course_Notes/assets/106411237/0cd17a19-1690-4070-a7c1-65b8629d0868)
 
-![Untitled](CREATING%20RESOURCES%20-%20PART%202%20ba70b5c22efd4980991ce81a956fe281/Untitled%201.png)
+![image](https://github.com/psaumur/TERRAFORM_Course_Notes/assets/106411237/aa5669a1-18e7-46e4-b8bf-4a6f632c73a6)
 
 ---

@@ -2,7 +2,7 @@
 
 ---
 
-With our current setup, we've established a:
+With our current setup, we've established:
 
 A VPC
 A SUBNET
@@ -27,6 +27,8 @@ There are many AMI's to choose from:
 - IoT
 - Industries
 
+---
+
 Since we are currently limited to the "Free Tier" selections, we should choose an option from that selection (to avoid unnecessary charges)
 
 "Amazon Linux 2 comes with five years support. It provides Linux kernel 5.10 tuned for optimal performance on Amazon EC2, systemd 219, GCC 7.3, Glibc 2.26, Binutils 2.29.1, and the latest software packages through extras. This AMI is the successor of the Amazon Linux AMI that is now under maintenance only mode and has been removed from this wizard."
@@ -44,9 +46,9 @@ NOTE : Not all AMI's are available in all AWS regions or that ID's are different
 
 ---
 
-#Create EC2 Instance
 
 ```jsx
+#Create EC2 Instance
 resource "aws_instance" "my_vm" {
 ami = "ami-0c2ab3b8efb09f272"
 }
@@ -64,9 +66,9 @@ Each type shows the number of CPUS, Memory, etc.
 
 ---
 
-#Create EC2 Instance
 
 ```jsx
+#Create EC2 Instance
 resource "aws_instance" "my_vm" {
 ami = "ami-0c2ab3b8efb09f272"
 instance_type = "t2.micro"
@@ -79,9 +81,9 @@ If we want to change our default setup for our instance, we have specify some at
 
 ---
 
-#Create EC2 Instance
 
 ```jsx
+#Create EC2 Instance
 resource "aws_instance" "my_vm" {
 ami = "ami-0c2ab3b8efb09f272"
 instance_type = "t2.micro"
@@ -97,9 +99,9 @@ We can also specify a security group for our EC2, to allow external access to it
 
 ---
 
-#Create EC2 Instance
 
 ```jsx
+#Create EC2 Instance
 resource "aws_instance" "my_vm" {
 ami = "ami-0c2ab3b8efb09f272"
 instance_type = "t2.micro"
@@ -118,9 +120,10 @@ To access the Instance from the Internet, we need to set it to associate a publi
 
 ---
 
-#Create EC2 Instance
+
 
 ```jsx
+#Create EC2 Instance
 resource "aws_instance" "my_vm" {
 ami = "ami-0c2ab3b8efb09f272"
 instance_type = "t2.micro"
@@ -138,9 +141,9 @@ The "key_name" call will generate a key for the instance when it launches.
 
 ---
 
-#Create EC2 Instance
 
 ```jsx
+#Create EC2 Instance
 resource "aws_instance" "my_vm" {
 ami = "ami-0c2ab3b8efb09f272"
 instance_type = "t2.micro"

@@ -9,17 +9,17 @@ Modern software development recommends code reuse through libraries, packages an
 Most programming languages allows developers to package and publish these reusable components on a registry (like Pypi for Python, or npm for Node.js, for example).
 
 Terraform is no different. Terraform Registry contains published MODULES for quickly deploying common infrastructure configurations.
+---
+The Registry comes in <ins>TWO</ins> variants :
 
-The Registry comes in TWO variants :
-
-PUBLIC REGISTRY:
+<ins>PUBLIC REGISTRY:</ins>
 Contains official Terraform providers and community models
 
-PRIVATE REGISTRY:
+<ins>PRIVATE REGISTRY:</ins>
 Available as part of the Terraform Cloud and hosts models used internally within an organization.
 
 Anyone can use/publish by provider in the Public Registry.
-
+---
 You can also search by provider or module.
 
 For example: 
@@ -29,7 +29,7 @@ Searching for 'alb' can bring up an AWS ALB module.
 ALB - Application Load Balancer.
 
 This module is used to create a AWS application or network load balancer and it's associated resources.
-
+---
 We can also see if something is VERIFIED module if it has a VERIFIED badge next to the module name. Hashicorp verifies modules and are usually higher qualify/proven than UNVERIFIED.
 
 Each MODULE page also contains:

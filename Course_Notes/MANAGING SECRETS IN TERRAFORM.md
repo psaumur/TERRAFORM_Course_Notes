@@ -25,7 +25,7 @@ No matter which technique you use to encrypt your secrets, they will still end u
 
 So:
 
-TERRAFORM SECURITY RULES
+<ins>TERRAFORM SECURITY RULES</ins>
 
 1. Don't store SECRETS in Plain Text!
 2. Store Terraform STATE in a backend that supports encryption.

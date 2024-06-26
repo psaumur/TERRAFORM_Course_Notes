@@ -1,6 +1,6 @@
 # CREATING AN SSH KEY-PAIR FOR EC2
 
-SSH PUBLIC KEY AUTHENTICATION:
+<ins>SSH PUBLIC KEY AUTHENTICATION:</ins>
 
 An SSH KEY PAIR is a Public and Private key used to authenticate to the EC2 instance.
 
@@ -61,7 +61,7 @@ Apply complete! Resources: 6 added, 0 changed, 0 destroyed.
 
 ---
 
-AUTOMATIC SSH KEY PAIR GENERATION WITH TERRAFORM
+<ins>AUTOMATIC SSH KEY PAIR GENERATION WITH TERRAFORM</ins>
 
 We can generate SSH Key Pairs, using Terraform (which is more efficient than using the EC2 interface).
 

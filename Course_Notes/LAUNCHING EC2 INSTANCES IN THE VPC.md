@@ -158,9 +158,9 @@ key_name = "production_ssh_key"
 
 We close by adding our TAGS to our Instance (such as it's "Name". In this case "My EC2 Instance - Amazon Linux 2")
 
-#Create EC2 Instance
 
 ```jsx
+#Create EC2 Instance
 resource "aws_instance" "my_vm" {
 ami = "ami-0c2ab3b8efb09f272"
 instance_type = "t2.micro"

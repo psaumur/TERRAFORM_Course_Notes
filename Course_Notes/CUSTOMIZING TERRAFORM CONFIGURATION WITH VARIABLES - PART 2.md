@@ -51,11 +51,11 @@ aws_vpc.main: Refreshing state... [id=vpc-09575e039cdaf2a45]
 aws_subnet.web: Refreshing state... [id=subnet-0181fe63f452b1dbb]
 ```
 
-![Untitled](CUSTOMIZING%20TERRAFORM%20CONFIGURATION%20WITH%20VARIABLES%2076d08f3eb3f9455aa79c5cb439d3f1ee/Untitled.png)
+![image](https://github.com/psaumur/TERRAFORM_Course_Notes/assets/106411237/c9a3d525-8181-4c8b-bb2f-b0bfde78e152)
 
-![Untitled](CUSTOMIZING%20TERRAFORM%20CONFIGURATION%20WITH%20VARIABLES%2076d08f3eb3f9455aa79c5cb439d3f1ee/Untitled%201.png)
+![image](https://github.com/psaumur/TERRAFORM_Course_Notes/assets/106411237/6029a04b-defb-40d6-b3a5-a484b8d87cc1)
 
-![Untitled](CUSTOMIZING%20TERRAFORM%20CONFIGURATION%20WITH%20VARIABLES%2076d08f3eb3f9455aa79c5cb439d3f1ee/Untitled%202.png)
+![image](https://github.com/psaumur/TERRAFORM_Course_Notes/assets/106411237/fa18fd18-4705-4c1d-aa99-5795dd408e4e)
 
 ---
 
@@ -65,9 +65,9 @@ aws_vpc.main: Refreshing state... [id=vpc-00974412c7f40b402]
 aws_subnet.web: Refreshing state... [id=subnet-0df3408305a234461]
 ```
 
-![Untitled](CUSTOMIZING%20TERRAFORM%20CONFIGURATION%20WITH%20VARIABLES%2076d08f3eb3f9455aa79c5cb439d3f1ee/Untitled%203.png)
+![image](https://github.com/psaumur/TERRAFORM_Course_Notes/assets/106411237/f68f4524-e60c-417e-b90c-39d0acbc6d18)
 
-![Untitled](CUSTOMIZING%20TERRAFORM%20CONFIGURATION%20WITH%20VARIABLES%2076d08f3eb3f9455aa79c5cb439d3f1ee/Untitled%204.png)
+![image](https://github.com/psaumur/TERRAFORM_Course_Notes/assets/106411237/8d1b2131-1ceb-4220-9b64-3605eeff054f)
 
 ---
 

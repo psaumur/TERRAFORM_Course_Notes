@@ -20,7 +20,7 @@ Can be used for billing information, ownership, automation, access control, etc.
 
 ---
 
-TERRAFORM PLAN AND APPLY
+<ins>TERRAFORM PLAN AND APPLY</ins>
 
 - Be sure to SAVE your "[main.tf](http://main.tf/)" configuration before running `terraform plan`, otherwise no changes will show.
 
@@ -71,7 +71,7 @@ You can delete your provision by using the AWS interface (Delete x) from the Act
 
 ---
 
-FORMATTING AND VALIDATING CONFIGURATION FILES
+<ins>FORMATTING AND VALIDATING CONFIGURATION FILES</ins>
 
 Infrastructure As Code means managing and provisioning your data centers through human and machine readable definition and configuration files. Since you will be working with a LOT of configuration files, keeping them readable and syntatically correct is important!
 
@@ -112,7 +112,7 @@ It will not FIX the files for you but will suggest FIXES for you to implement.
 
 ---
 
-DESTROYING INFRASTRUCTURE WITH TERRAFORM
+<ins>DESTROYING INFRASTRUCTURE WITH TERRAFORM</ins>
 
 In addition to building and modifying infrastructure, Terraform can destroy or recreate the resources it manages.
 
@@ -147,7 +147,7 @@ If you have more resources and only want to destroy only ONE of them, then you p
 
 In our [main.tf](http://main.tf/) example, to remove the "aws_vpc" resource, we would use `terraform destroy -target aws_vpc.main` (can add "-auto-approve" to bypass prompt)
 
-NOTE:
+<ins>NOTE:</ins>
 
 The "-target" option is not for routine use and is provided only in EXCEPTIONAL situations such as recovering from errors or mistakes, or when Terraform specifically suggests to use it as part of an error message.
 
@@ -155,7 +155,7 @@ Removing resources via the configuration file is the safer and more precise way 
 
 ---
 
-REPLACING INFRASTRUCTURE WITH TERRAFORM
+<ins>REPLACING INFRASTRUCTURE WITH TERRAFORM</ins>
 
 To FORCE a replacement of resources when launching a Terraform PLAN, using the "-replace" flag to `terraform plan` or `terraform apply` and it will safely recreate the resources in your environment.
 

@@ -33,7 +33,9 @@ Searching for 'alb' can bring up an AWS ALB module.
 ALB - Application Load Balancer.
 
 This module is used to create a AWS application or network load balancer and it's associated resources.
+
 ---
+
 We can also see if something is VERIFIED module if it has a VERIFIED badge next to the module name. Hashicorp verifies modules and are usually higher qualify/proven than UNVERIFIED.
 
 Each MODULE page also contains:
@@ -48,7 +50,7 @@ Each MODULE page also contains:
 
 ---
 
-THE VPC MODULE
+<ins>THE VPC MODULE</ins>
 
 Using our prior refactored configuration, we can replace our VPC module with a registry one.
 
@@ -100,7 +102,7 @@ web_subnet = "10.0.10.0/24"
 
 ---
 
-THE SECURITY GROUP MODULE
+<ins>THE SECURITY GROUP MODULE</ins>
 
 Adding SSH access using the AWS "SSH" MODULE
 
@@ -116,11 +118,11 @@ ingress_cidr_blocks = ["0.0.0.0/0"]
 
 ---
 
-THE EC2 MODULE
+<ins>THE EC2 MODULE</ins>
 
 Adding EC2 Instance module
 
-NOTE:  We need to define our SSH key pair for our EC2 instance
+<ins>NOTE:</ins>  We need to define our SSH key pair for our EC2 instance
 
 ---
 

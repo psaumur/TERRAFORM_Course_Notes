@@ -34,9 +34,10 @@ To configure the default SECURITY GROUP of the VPC, we will use a resource calle
 
 ---
 
-#Create default Security Group
+
 
 ```jsx
+#Create default Security Group
 resource "aws_default_security_group" "default_sec_group" {
   vpc_id = aws_vpc.main.id
   ingress {
@@ -77,9 +78,9 @@ If we use a variable here, we can define WHAT IP addresses are allowed SSH acces
 
 ---
 
-#Create default Security Group
 
 ```jsx
+#Create default Security Group
 resource "aws_default_security_group" "default_sec_group" {
 vpc_id = aws_vpc.main.id
 ingress {

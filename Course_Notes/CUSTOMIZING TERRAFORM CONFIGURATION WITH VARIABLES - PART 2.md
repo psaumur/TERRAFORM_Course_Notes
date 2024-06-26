@@ -7,7 +7,7 @@ terraform plan -var="web_subnet=10.0.20.0/24"
 'terraform plan -var="vpc_cidr_block=192.168.0.0/16" -var="web_subnet="192.168.10.0/24"`
 ```
 
-TERRAFORM CODE ORGANIZATION
+<ins>TERRAFORM CODE ORGANIZATION</ins>
 
 Terraform code can bring a lot of confusion, especially for beginners.
 
@@ -102,7 +102,7 @@ These types of environment variables are not saved across sections if you don't 
 
 ---
 
-VARIABLE PRECEDENCE
+<ins>VARIABLE PRECEDENCE</ins>
 
 There are multiple ways to define variables, so it's important to understand which variables are considered FIRST to LAST.
 

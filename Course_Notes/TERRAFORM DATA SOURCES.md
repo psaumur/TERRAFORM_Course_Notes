@@ -42,7 +42,7 @@ This is when DATA SOURCES come into play.
 
 ---
 
-FILTERING AMI USING DATA SOURCES
+<ins>FILTERING AMI USING DATA SOURCES</ins>
 
 A DATA SOURCE is accessed via a special kind of "resource" known as a DATA RESOURCE, declared using a "data" block.
 
@@ -149,7 +149,7 @@ The reason we *didn't* use a variable, instead of a data source, is because vari
 
 ---
 
-QUERYING DATA WITH OUTPUTS
+<ins>QUERYING DATA WITH OUTPUTS</ins>
 
 Terraform Output Values are used to export structured data about resources.
 

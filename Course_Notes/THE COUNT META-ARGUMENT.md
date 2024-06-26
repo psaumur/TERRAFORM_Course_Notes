@@ -20,7 +20,7 @@ This will create 3 instances of our server, with distinct infrastructure objects
 
 ---
 
-CREATING IAM USERS USING COUNT
+<ins>CREATING IAM USERS USING COUNT</ins>
 
 IAM = IDENTITY AND ACCESS MANAGEMENT
 

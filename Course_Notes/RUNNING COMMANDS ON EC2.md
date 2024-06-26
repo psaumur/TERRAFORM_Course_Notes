@@ -28,7 +28,7 @@ You can use provisioners.
 
 ---
 
-RUNNING COMMANDS WITH USER_DATA
+<ins>RUNNING COMMANDS WITH USER_DATA</ins>
 
 The "user_data" attribute:
 

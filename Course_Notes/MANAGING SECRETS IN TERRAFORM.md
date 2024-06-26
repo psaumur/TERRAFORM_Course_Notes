@@ -32,7 +32,7 @@ So:
 
 ---
 
-STORING SECRETS USING VARIABLES
+<ins>STORING SECRETS USING VARIABLES</ins>
 
 We will implement storing secrets inside variables as well as using an RDS Instance resource (Relational Database Service : an isolated DB instance environment in the cloud). A DB Instance can contain multiple user-created databases.
 
@@ -115,7 +115,7 @@ THIS will still save the password in plain-text in the STATE file!
 
 ---
 
-STORING SECRETS SECURELY USING AWS SECRETS MANAGER
+<ins>STORING SECRETS SECURELY USING AWS SECRETS MANAGER</ins>
 
 We want to store SECRETS securely and keep plain-text SECRETS out of the code and version control system.
 

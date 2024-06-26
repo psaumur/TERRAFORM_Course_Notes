@@ -57,7 +57,7 @@ There are many useful examples of functions in the user documentation.
 
 ---
 
-USING TERRAFORM BUILT-IN FUNCTIONS
+<ins>USING TERRAFORM BUILT-IN FUNCTIONS</ins>
 
 The 'lookup' function, takes two arguments, like so:
 

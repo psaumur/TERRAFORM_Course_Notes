@@ -39,7 +39,7 @@ plan. Resource actions are indicated with the following symbols:
 
 Terraform will perform the following actions:
 
-![Untitled](CREATING%20RESOURCES%20-%20PART%201%2019b50b9716af4c0d99ecda2b5eb7a118/Untitled.png)
+![image](https://github.com/psaumur/TERRAFORM_Course_Notes/assets/106411237/33fc7205-8a67-4538-9b5d-eeaf241262de)
 
 To save a PLAN out to a file, you use the :
 
@@ -61,7 +61,7 @@ If you output a PLAN to a "tfplan" file, you can execute the plan from the file 
 
 `terraform apply "tfplan"`
 
-![Untitled](CREATING%20RESOURCES%20-%20PART%201%2019b50b9716af4c0d99ecda2b5eb7a118/Untitled%201.png)
+![image](https://github.com/psaumur/TERRAFORM_Course_Notes/assets/106411237/c380100c-e886-456e-a4be-c37ff87e6472)
 
 You can run `terraform plan` again to double-check the current configuration matches the plan that was executed. If it matches, you will receive this message:
 
@@ -135,7 +135,7 @@ plan. Resource actions are indicated with the following symbols:
 
 Terraform will perform the following actions:
 
-![Untitled](CREATING%20RESOURCES%20-%20PART%201%2019b50b9716af4c0d99ecda2b5eb7a118/Untitled%202.png)
+![image](https://github.com/psaumur/TERRAFORM_Course_Notes/assets/106411237/7d8ec9b5-327d-40a9-83df-c82f0d396cd8)
 
 Note the '-' signs, signifying what is being removed.
 

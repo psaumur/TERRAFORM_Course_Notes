@@ -9,7 +9,9 @@ Modern software development recommends code reuse through libraries, packages an
 Most programming languages allows developers to package and publish these reusable components on a registry (like Pypi for Python, or npm for Node.js, for example).
 
 Terraform is no different. Terraform Registry contains published MODULES for quickly deploying common infrastructure configurations.
+
 ---
+
 The Registry comes in <ins>TWO</ins> variants :
 
 <ins>PUBLIC REGISTRY:</ins>
@@ -19,7 +21,9 @@ Contains official Terraform providers and community models
 Available as part of the Terraform Cloud and hosts models used internally within an organization.
 
 Anyone can use/publish by provider in the Public Registry.
+
 ---
+
 You can also search by provider or module.
 
 For example: 
